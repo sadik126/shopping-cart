@@ -5,7 +5,7 @@ document.getElementById('caseplus').addEventListener('click',function(){
     input.value = total;
     
     totalprice = input.value * 59;
-    let price = document.getElementById('totalprice');
+    let price = document.getElementById('casetotal');
     price.innerText = totalprice;
 })
 
@@ -19,7 +19,7 @@ document.getElementById('caseminus').addEventListener('click',function(){
     
     input.value = total;
     totalprice = input.value * 59;
-    let price = document.getElementById('totalprice');
+    let price = document.getElementById('casetotal');
     price.innerText = totalprice;
    
     
